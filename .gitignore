@@ -1,0 +1,42 @@
+# ===== 敏感配置（绝对不能提交）=====
+.env
+.env.local
+
+# ===== Python 缓存 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ===== 虚拟环境 =====
+venv/
+env/
+.venv/
+.env/
+
+# ===== 日志 =====
+logs/
+*.log
+
+# ===== 生成的病历和中间产物 =====
+data/output/
+data/input/*
+!data/input/.gitkeep
+data/history.json
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
